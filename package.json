@@ -16,7 +16,7 @@
 		"build": "babel --out-file=legacy.js index.js",
 		"build:watch": "npm run build -- --watch",
 		"prepublish": "npm run build",
-		"prepack": "npm run build",
+		"prepare": "npm run build",
 		"test": "xo && nyc ava"
 	},
 	"files": [
